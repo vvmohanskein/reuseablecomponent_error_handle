@@ -1,6 +1,6 @@
 {
   "name": "reuseablecomponent",
-  "version": "1.0.0",
+  "version": "1.1.5",
   "description": "reuseablecomponents",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/vvmohanskein/reuseablecomponent_error_handle/issues"
   },
-  "homepage": "https://github.com/vvmohanskein/reuseablecomponent_error_handle#readme"
+  "homepage": "https://github.com/vvmohanskein/reuseablecomponent_error_handle#readme",
+  "keywords": [
+    "Validatation",
+    "Reuseable",
+    "emailValidatation",
+    "passwordValidatation",
+    "etc"
+  ]
 }
