@@ -1,6 +1,6 @@
 {
   "name": "react-onchange-validation",
-  "version": "1.1.9",
+  "version": "1.2.2",
   "description": "reuseablecomponents",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/vvmohanskein/reuseablecomponent_error_handle.git"
   },
   "author": "mohan",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vvmohanskein/reuseablecomponent_error_handle/issues"
   },
@@ -22,5 +22,9 @@
     "emailValidatation",
     "passwordValidatation",
     "etc"
-  ]
+  ],
+  "dependencies": {
+    "mit-license": "^1.0.0"
+  },
+  "devDependencies": {}
 }

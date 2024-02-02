@@ -36,32 +36,30 @@ const handleChange =(e)=>{
 ````
 <!-- ![Code image](./assets/code.png) -->
 
-## Here 
- ## Requried  
- Requried  key will throw an error if there is an Empty Field.
- ## Message  
 
+ <!-- ## Message   -->
+<!-- 
  Regex pattern used 
    ^[^\s$&*!#^@]+@[^\s@]+\.([^\s@]{2,3})+$
-Message key will throw an error  if  there is an Regex Error in the entered EmailID.
+Message key will throw an error  if  there is an Regex Error in the entered EmailID. -->
 <!-- ![Web image](./assets/web.png) -->
 
 
-## Demo 
-Try this Out in
+## Demo
 
- [Edit in CodeSandbox ](https://codesandbox.io/p/sandbox/react-forms-forked-w3yctm?file=%2Fsrc%2Fcomponents%2FApp.jsx%3A15%2C33).
+
+ [Demo](https://codesandbox.io/p/sandbox/react-forms-forked-w3yctm?file=%2Fsrc%2Fcomponents%2FApp.jsx%3A15%2C33).
 
 ## Message
-| Propert | Definition    |                
+| Property | Definition    |                
 | :---:   | :---: | 
+| Requried | This Function throws the error if there is an Empty Field. |
 | UserNameValidation | This function alidates name fields, ensuring that the first character is not a whitespace and validate special character. (example:ValidateData.usernameCheck(e.target.value).nameCheck())    |  
 | emailValidation |This function validates a valid email using regex. (example:ValidateData.email(value).require()) | 
-| numberValidation |This function checks a number field for minimum and maximum length. (example:ValidateData.mobileNumberCheck(e.target.value)
-.numberRegexCheck().numberLimitCheck())  |  
+| numberValidation |This function checks a number field for minimum and maximum length. (example:ValidateData.mobileNumberCheck(e.target.value).numberRegexCheck().numberLimitCheck()) |  
 | passwordValidation | This function validates strong passwords, ensuring there are no whitespace characters, and checks for both minimum and maximum password lengths. Additionally, it uses regex to verify the strength of the password. (example: ValidateData.password(value).passwordRegex().passwordLimit())|   
-| confirmPasswordValidators | This function checks whether the new password and the confirm password values are the same.  (example:confirmPasswordValidators(value1,value2))  | 
-| value | The parameter type for this function is now set to 'any' for the value  (example:passwordValidation(value))  |  
+| confirmPasswordValidation | This function checks whether the new password and the confirm password values are the same.  (example:ValidateData.cpasswordCheck(value1,value2).comparingPassword())  | 
+| value | The parameter type for this function is now set to 'any' for the value  (example:ValidateData.password(value))  |  
 | value1,value2 | Two values are present: value1 represents the new password, and value2 represents the confirm password.(example:ValidateData.cpasswordCheck(value1,value2).comparingPassword()) |
 
 
