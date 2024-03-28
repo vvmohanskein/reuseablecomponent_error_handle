@@ -1,6 +1,6 @@
 {
-  "name": "reactjs-validations",
-  "version": "1.2.1",
+  "name": "reactjs-validation-inputs",
+  "version": "1.2.5",
   "description": "reuseablecomponents",
   "main": "index.js",
   "scripts": {
